@@ -8,7 +8,7 @@ const Button = ({title,containerClass,id,rightIcon, leftIcon}) => {
         ${containerClass}`}
         >
             {leftIcon}
-            <span className="relative inline-flex overflow-hidden font-general text-xl uppercase">
+            <span className="relative inline-flex overflow-hidden font-general text-xl uppercase text-black">
                 {title}
             </span>
         </div>
